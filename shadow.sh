@@ -1,20 +1,7 @@
 #!/bin/sh
 #
-echo ''
-echo '/*教程请参考:极路由Shadowsocks家庭无痛翻墙实践*/'
-echo 'https://luolei.org/hiwifi-shadowsocks/'
-echo 'by @foru17'
-echo ''
-echo ''
-echo '那一天,'
-echo '人类终于回想起了,'
-echo '曾经一度被他们所支配的恐怖,'
-echo '还有被囚禁于鸟笼中的那份屈辱.'
-echo ''
-echo '進撃の巨人 諫山創'
-echo ''
 sleep 2
-echo 'Building environment... 创建临时目录ing'
+echo 'Building environment... 正在创建临时目录'
 echo ''
 mkdir /tmp/geewan
 cd /tmp/geewan
@@ -22,10 +9,10 @@ echo 'Done! 成功创建临时目录!'
 echo '
 '
 sleep 3
-echo 'Downloading files... 下载插件ing'
+echo 'Downloading files... 正在下载插件'
 echo '
 '
-curl -k -o ss.tar.gz http://luoleicdn.b0.upaiyun.com/file/hiwifi/ss.tar.gz
+curl -k -o ss.tar.gz  https://github.com/uwtom/SSR-HiWifiOS/raw/master/ssr-client-hiwifi.tar.gz 
 echo 'Done! 下载完成'
 echo '
 '
@@ -57,7 +44,7 @@ echo 'Installed-Time: 1422509506' >>/usr/lib/opkg/status
 echo 'Auto-Installed: yes' >>/usr/lib/opkg/status
 echo '
 ' >>/usr/lib/opkg/status
-echo 'cleanning temporary files... 清理临时文件ing'
+echo 'cleanning temporary files... 正在清理临时文件'
 echo '
 '
 if test -e /tmp/luci-indexcache;
@@ -69,11 +56,5 @@ fi
 rm -rf /tmp/geewan
 sleep 3
 echo 'the whole installation Success! 插件成功安装!'
-echo '1987年9月14日21时07分'
-echo '中国第一封电子邮件'
-echo '从北京发往德国'
-echo '越过长城，走向世界'
-echo 'Done! Hello World! 一切就绪,你好世界!'
-
 
 
