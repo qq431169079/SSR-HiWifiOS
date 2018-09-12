@@ -1,6 +1,8 @@
 极路由刷SS/SSR插件 (适用于1S/2/3/4/B50/B70等机型)
  
+ 
 首先你得有一个Shadowsocks帐号，可以自己在服务器上搭建，也可以购买，这里不提供、不出售，也不回答从哪购买之类的问题。
+ 
  
 1. 开启极路由开发者模式：
  * 安装Shadowsocks插件需要开启开发者权限。以下为申请方法：
@@ -12,8 +14,11 @@
  * f. 验证成功后，进入微信验证页面，按照极路由官方提示，完成微信认证。
  * g. 验证成功之后，即开通开发者模式。
  
-2. SSH登录极路由：
- * Windows: 使用PuTTY或xShell登录 (个人比较偏好xShell)，具体使用方法网上很多，请自行搜索！
+
+2. SSH登录极路由：Windows: 使用PuTTY或xShell登录 (个人比较偏好xShell)，具体使用方法网上很多，请自行搜索！
  
-3. 便捷脚本安装：
- * cd /tmp && wget https://github.com/uwtom/SSR-HiWifiOS/raw/master/hiwifissr.sh && sh hiwifissr.sh && rm hiwifissr.sh
+ 
+3. 便捷脚本安装：cd /tmp && wget https://github.com/uwtom/SSR-HiWifiOS/raw/master/hiwifissr.sh && sh hiwifissr.sh && rm hiwifissr.sh
+ 
+ 
+4. 重启极路由：可以在PuTTY或xShell命令行输入'reboot'，回车确认；或者拔掉极路由电源等一会再插上，最直接有效的方法！
