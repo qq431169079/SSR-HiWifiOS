@@ -9,4 +9,4 @@
 ssh root@192.168.199.1 -p 1022 #使用root帐号连接路由，端口为1022，密码为后台登陆密码。
 
 3.便捷脚本安装
-cd /tmp && wget http://cdn.is26.com/file/hiwifi/shadow.sh && sh hiwifissr.sh && rm hiwifissr.sh
+cd /tmp && wget https://github.com/uwtom/SSR-HiWifiOS/raw/master/hiwifissr.sh && sh hiwifissr.sh && rm hiwifissr.sh
