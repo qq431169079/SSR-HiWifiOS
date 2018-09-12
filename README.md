@@ -1,2 +1,2 @@
-# Python
-A Python studying
+# Incomplete Codes
+Put some codes sources and try to figure it.
