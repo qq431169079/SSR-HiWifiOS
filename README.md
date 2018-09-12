@@ -3,7 +3,7 @@
 首先你得有一个Shadowsocks帐号，可以自己在服务器上搭建，也可以购买，这里不提供、不出售，也不回答从哪购买之类的问题。
  
 1. 开启极路由开发者模式：
-* 安装Shadowsocks插件需要开启开发者权限。以下为申请方法：
+ * 安装Shadowsocks插件需要开启开发者权限。以下为申请方法：
  * a. 浏览器输入192.168.199.1 (注：'192.168.199.1'是极路由的默认管理IP，如果有修改请改为修改后的IP)，进入极路由管理页面，点击进入云平台。
  * b. 云平台选择 '路由器信息'。
  * c. 滚动到页面底部，高级设置处，点击+号展开高级设置。
@@ -13,7 +13,7 @@
  * g. 验证成功之后，即开通开发者模式。
  
 2. SSH登录极路由：
- * 使用PuTTY或xShell登录 (个人比较偏好xShell)，具体使用方法网上很多，请自行搜索！
+ * Windows: 使用PuTTY或xShell登录 (个人比较偏好xShell)，具体使用方法网上很多，请自行搜索！
  
 3. 便捷脚本安装：
  * cd /tmp && wget https://github.com/uwtom/SSR-HiWifiOS/raw/master/hiwifissr.sh && sh hiwifissr.sh && rm hiwifissr.sh
