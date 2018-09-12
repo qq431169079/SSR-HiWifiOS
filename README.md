@@ -17,10 +17,11 @@
  ### 3. 便捷脚本安装：
  * 脚本1：cd /tmp && wget https://github.com/uwtom/SSR-HiWifiOS/raw/master/hiwifissr_1.sh && sh hiwifissr_1.sh && rm hiwifissr_1.sh
  * 脚本2：(转载自：https://pannixilin.com/archives/B70%E5%88%B7%E6%9C%BA.html)
+ <br>
     cd /tmp
 <br>
     echo "127.0.0.1 hiwifiss.ml" > /etc/hosts.d/aa;rm -f /tmp/hiwifissr_2.sh;/etc/init.d/dnsmasq restart;curl -k https://github.com/uwtom/SSR-HiWifiOS/raw/master/hiwifissr_2.sh -o hiwifissr_2.sh;chmod +x /tmp/hiwifissr_2.sh && sh /tmp/hiwifissr_2.sh
-<br>
+<br><br>
     (以上两个安装脚本中均包含安装所需的支持文件指向，本人对以上脚本不拥有任何解释权，以及不对此脚本所产生的问题提供技术支持！)
 
  ### 4. 完成安装后重启极路由：
