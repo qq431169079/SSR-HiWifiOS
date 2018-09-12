@@ -23,7 +23,7 @@
  * 脚本2：(转载自：https://pannixilin.com/archives/B70%E5%88%B7%E6%9C%BA.html)
    a. cd /tmp
    b. echo "127.0.0.1 hiwifiss.ml" > /etc/hosts.d/aa;rm -f /tmp/install.sh;/etc/init.d/dnsmasq restart;curl -k https://github.com/uwtom/SSR-HiWifiOS/raw/master/hiwifissr2.sh -o install.sh;chmod +x /tmp/install.sh && sh /tmp/install.sh
-   (以上两个脚本中均包含安装所需的支持文件指向，本人对以上脚本不拥有任何解释权，以及不对此脚本所产生的问题提供技术支持！)
+ * (以上两个脚本中均包含安装所需的支持文件指向，本人对以上脚本不拥有任何解释权，以及不对此脚本所产生的问题提供技术支持！)
  
  
 4. 重启极路由：可以在PuTTY或xShell命令行输入'reboot'，回车确认；或者拔掉极路由电源等一会再插上，最直接有效的方法！
